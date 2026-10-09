@@ -4,7 +4,7 @@
 
 ```mermaid
 flowchart TD
-    A[("📦 Dataset<br/>Raw time-series data")]
+    A[("Dataset<br/>Raw time-series data")]
 
     subgraph PREP["Data Preparation"]
         B["Validation & Cleaning<br/>schema checks, missing values,<br/>duplicates, outliers"]
@@ -21,8 +21,8 @@ flowchart TD
     G["Forecast<br/>point predictions &<br/>confidence intervals"]
 
     subgraph EXPLAIN["Explanation & Reporting"]
-        H["🤖 DeepSeek Explanation<br/>natural-language interpretation<br/>of results & drivers"]
-        I["📄 Report<br/>charts, metrics, narrative"]
+        H["DeepSeek Explanation<br/>natural-language interpretation<br/>of results & drivers"]
+        I["Report<br/>charts, metrics, narrative"]
     end
 
     A --> B --> C --> D --> E --> F --> G --> H --> I
