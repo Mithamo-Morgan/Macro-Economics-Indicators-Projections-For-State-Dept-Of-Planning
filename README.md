@@ -1,6 +1,6 @@
 # Economic Intelligence System
 
-# Version 1 flow diagram
+## Pipeline Architecture Diagram
 
 ```mermaid
 flowchart TD
