@@ -1,6 +1,18 @@
 # Economic Intelligence System
 
-## Pipeline Architecture Diagram
+## Introduction
+
+Accurate projections of macroeconomic indicators will enable planners and advisors to make informed decisions, allowing the government to anticipate economic shifts, implement timely interventions, and enhance national economic stability.
+
+## Objective
+
+Develop an AI-driven machine learning (ML) model trained on a wide range of historical and real-time economic data to enhance the accuracy and timeliness of macroeconomic forecasts, thereby providing a more robust analytical foundation for the Treasury’s work.
+
+## Approach
+
+In economics, statistical time-series models provide strong baselines because they are specifically designed to model temporal dependencies using limited historical observations. Given the current dataset — monthly frequency, approximately 260 observations, a single variable, and no external drivers — it is preferable to start with statistical forecasting models rather than more complex machine learning models such as XGBoost. With limited data, complex ML models may capture historical patterns very well but fail to generalize to unseen periods.
+
+## Architecture
 
 ```mermaid
 flowchart LR
